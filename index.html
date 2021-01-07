@@ -6,38 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
     <style>
-        .background {
-            background-color: rgb(173, 167, 252);
-        }
-        .profPic {
-            margin: 0.5em 0;
-            width: 100%;
-            background-color: rgb(80, 173, 228);
-        }
-
-        .cardHeader {
-            border: solid 1px;
-            margin: 0.5em 0;
-        }
-
-        .infoLink {
-            font-size: 18px;
-            font-weight: bold;
-        }
-
-        .codingProjects {
-            padding: 0.4em;
-            color: white;
-        }
-
-        .mainHeader {
-            background-color: rgba(10, 0, 95, 0.945);
-            font-weight: bold;
-        }
-        .linkedInbtn {
-            color: black
-        }
+        
+        
     </style>
 </head>
 
@@ -47,15 +19,12 @@
             <a href="#" class="brand-logo center">Coding Portfolio</a>
         </div>
     </nav>
-    <!----------------- Page Layout here --------------------------->
+    
     <div class="container">
         <div class="row">
             <div class="col s12 m4 l4 card blue-grey">
                 <div class="card-content white-text">
-                    <span class="card-title" style="text-align: center"><h3>Travis Ko</h3></span>
-                    
-                    
-                    
+                    <span class="card-title" style="text-align: center"><h3>Travis Ko</h3></span>                                        
                 </div>
                 <card class="profPic card-action">
                     <img class="flex-row" src="profile-photo2.jpg" alt="profile picture">
@@ -67,8 +36,8 @@
                         in the UCSD Coding Bootcamp. I currently have experience in HTML, Javascript, Bootstrap, and CSS, I have also worked with jQuery, AJAX, and commands in terminal.</div>
                 </div>
                 <div class="card-action">
-                    <card class="profPic waves-effect waves-light btn">
-                        Click me?                            
+                    <card class="black text-align:center waves-effect waves-light btn">
+                        <a href="https://google.com">Google Home Page</a>                           
                     </card>
                 </div>
             </div>
@@ -78,14 +47,14 @@
                     <div class="card blue-grey">
                         <div class="card-header blue-grey">
                             <strong>
-                                <i class="codingProjects strong fa fa-table"></i>Coding Projects:</strong>
+                                <h5 class="otherHeaders strong"><strong>Coding Projects:</strong></h5>
                         </div>
                         <div class="codingProjects flex-row p1 m2">Random Password Generator app:<p>
-                            <a href="https://techkospeaks.github.io/Portfolio-Password-Generator/">Password Generator</a>
+                            <a class="btn" href="https://techkospeaks.github.io/Portfolio-Password-Generator/">Password Generator</a>
                                 </p>
                         </div>
                         <div class="codingProjects flex-row p2 m2">Weather Dashboard API website:<p>
-                            <a href="https://techkospeaks.github.io/Portfolio-Weather-Dashboard/">Weather Dashboard</a>
+                            <a class="btn" href="https://techkospeaks.github.io/Portfolio-Weather-Dashboard/">Weather Dashboard</a>
                                 </p>
                         </div>                        
                     </div>
@@ -96,7 +65,7 @@
                     <div class="card blue-grey">
                         <div class="card-header blue-grey">
                             <strong>
-                                <i class="codingProjects strong fa fa-table"></i>Personal Information:</strong>
+                                <h5 class="otherHeaders strong"><strong>Personal Information:</strong></h5>
                         </div>
                         <div class="codingProjects flex-row p1 m2">Phone Number:(206)-694-3202
                         </div>
@@ -107,13 +76,19 @@
                         <div class="codingProjects flex-row p2 m2">Github Profile: <a href="https://github.com/TechKoSpeaks">TechKoSpeaks</a> 
                         </div>                     
                         
-                            <div class="linkedInbtn card-action">LinkedIn and Resume pages:</div>
-                            <button type="submit" class="linkedInbtn btn-default" id="LinkedIn">
+                            
+                            <p class="titleBtns">LinkedIn Page:</p>
+                            <button class="clickBtn black text-align:center waves-effect waves-light btn">
                                 <a href="https://www.linkedin.com/in/travisko/">LinkedIn Profile</a>                                
-                            </button>
-                            <button class="linkedInbtn btn-default" id="Resume">
+                            </button></p>
+                            <p class="titleBtns">Resume:</p>                           
+                            <p><button class="clickBtn black text-align:center waves-effect waves-light btn">
                                 <a href="https://docs.google.com/document/d/1iMJFDzid7c-mCA4b2vQoJPSLNOII7lex9CM5JbsaqaU/edit?usp=sharing">Resume Link</a>                                
-                            </button>
+                            </button></p>
+                            <p class="titleBtns">GitHub Page:</p>
+                            <button class="clickBtn black text-align:center waves-effect waves-light btn">
+                                <a href="https://github.com/TechKoSpeaks">GitHub Link</a>                                
+                            </button></p>
                         
                         <div class="row">
                             <div class="col-sm-12">
