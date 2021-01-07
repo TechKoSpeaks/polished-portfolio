@@ -6,33 +6,39 @@ This is an updated and polished coding portfolio, including my profile page, as 
 Link to deployed app: https://techkospeaks.github.io/polished-portfolio/ 
 
 ## Technologies Used:
-HTML5
-Bootstrap
-CSS
-Javascript
+- HTML5
+- Bootstrap
+- CSS
+- Javascript
+
+## Screenshots of deployed app
+
+![alt text](screenshots/portfolio-screen.png "Portfolio Screenshot")
+
+![alt text](screenshots/portfolio-screenone.png "Portfolio Screenshot 2")
 
 
-2-3 Screenshots / gifs of the app
 
-
+## Links
 
 Here is a link to the updated resume:
-https://docs.google.com/document/d/1iMJFDzid7c-mCA4b2vQoJPSLNOII7lex9CM5JbsaqaU/edit?usp=sharing 
----------
+- https://docs.google.com/document/d/1iMJFDzid7c-mCA4b2vQoJPSLNOII7lex9CM5JbsaqaU/edit?usp=sharing 
+
 
 
 Here is a link to the updated LinkedIn profile:
-https://www.linkedin.com/in/travisko/ 
----------
+- https://www.linkedin.com/in/travisko/ 
+
 
 Here is a link to my updated Github repository:
-https://github.com/TechKoSpeaks
------------
+- https://github.com/TechKoSpeaks
 
 
-Contact Information:
+
+## Contact Information:
+
 Travis Ko
 tkospeaks@gmail.com
 206-694-3202
 
-Licensed by MIT
+Licensed by MIT & Travis Ko
