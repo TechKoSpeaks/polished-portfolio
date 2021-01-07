@@ -1,6 +1,7 @@
 .background {
     background-color: rgb(173, 167, 252);
 }
+
 .profPic {
     margin: 0.5em 0;
     width: 100%;
@@ -34,10 +35,11 @@
     padding: 0.4em;
     color: black;
 }
-.clickBtn {
-    
+
+.clickBtn {    
     margin: 0.4em;
 }
+
 .titleBtns {
     padding: 0.4em;
 }
