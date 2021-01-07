@@ -7,6 +7,9 @@
     <title>Portfolio Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
     <style>
+        .background {
+            background-color: rgb(173, 167, 252);
+        }
         .profPic {
             margin: 0.5em 0;
             width: 100%;
@@ -29,16 +32,19 @@
         }
 
         .mainHeader {
-            background-color: rgb(69, 155, 224);
+            background-color: rgba(10, 0, 95, 0.945);
+            font-weight: bold;
+        }
+        .linkedInbtn {
+            color: black
         }
     </style>
 </head>
 
-<body>
-
+<body class="background">
     <nav>
         <div class="mainHeader nav-wrapper">
-            <a href="#" class="brand-logo center"><strong>Travis Ko</strong> - Coding Portfolio</a>
+            <a href="#" class="brand-logo center">Coding Portfolio</a>
         </div>
     </nav>
     <!----------------- Page Layout here --------------------------->
@@ -46,38 +52,24 @@
         <div class="row">
             <div class="col s12 m4 l4 card blue-grey">
                 <div class="card-content white-text">
-                    <span class="card-title" style="text-align: center">About Me:</span>
-                    <div class="card-action">
-                        <card class="profPic waves-effect waves-light btn">
-                            Profile Picture                            
-                        </card>
-                    </div>
+                    <span class="card-title" style="text-align: center"><h3>Travis Ko</h3></span>
+                    
+                    
+                    
                 </div>
                 <card class="profPic card-action">
                     <img class="flex-row" src="profile-photo2.jpg" alt="profile picture">
                     <img class="img-responsive">
                 </card>
+                <p class="card" style="text-align: center"><h5>About Me:</h5></p>
                 <div class="card-action">
-                    <div>I am an aspiring full stack programmer coming from a background in finance, currently enrolled
-                        in the UCSD Coding Bootcamp. I currently have experience in HTML, Javascript, Bootstrap, and CSS.</div>
+                    <div>I am an aspiring full stack programmer located in San Diego coming from a background in finance, currently enrolled
+                        in the UCSD Coding Bootcamp. I currently have experience in HTML, Javascript, Bootstrap, and CSS, I have also worked with jQuery, AJAX, and commands in terminal.</div>
                 </div>
-
-                
-                <div class="codingProjects card">
-                    <div class="card-body">
-                        
-                        <form role="card">
-                            <div>Here are links to LinkedIn and Resume pages:</div>
-
-
-                            <button type="submit" class="btn btn-default" id="LinkedIn">
-                                <i class="fa fa-search"></i> LinkedIn Profile
-                            </button>
-                            <button class="btn btn-default" id="Resume">
-                                <i class="fa fa-trash"></i> Resume Link
-                            </button>
-                        </form>
-                    </div>
+                <div class="card-action">
+                    <card class="profPic waves-effect waves-light btn">
+                        Click me?                            
+                    </card>
                 </div>
             </div>
 
@@ -88,13 +80,41 @@
                             <strong>
                                 <i class="codingProjects strong fa fa-table"></i>Coding Projects:</strong>
                         </div>
-                        <div class="codingProjects flex-row p1 m2">Here is a link to a random password generator app:<p>
-                                https://techkospeaks.github.io/Portfolio-Password-Generator/</p>
+                        <div class="codingProjects flex-row p1 m2">Random Password Generator app:<p>
+                            <a href="https://techkospeaks.github.io/Portfolio-Password-Generator/">Password Generator</a>
+                                </p>
                         </div>
-                        <div class="codingProjects flex-row p2 m2">Here is a link to a Weather Dashboard API website:<p>
-                                https://techkospeaks.github.io/Portfolio-Weather-Dashboard/</p>
+                        <div class="codingProjects flex-row p2 m2">Weather Dashboard API website:<p>
+                            <a href="https://techkospeaks.github.io/Portfolio-Weather-Dashboard/">Weather Dashboard</a>
+                                </p>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m8 l8">
+                <div class="card-action s12 m4 l4">
+                    <div class="card blue-grey">
+                        <div class="card-header blue-grey">
+                            <strong>
+                                <i class="codingProjects strong fa fa-table"></i>Personal Information:</strong>
                         </div>
-
+                        <div class="codingProjects flex-row p1 m2">Phone Number:(206)-694-3202
+                        </div>
+                        <div class="codingProjects flex-row p2 m2">Email: tkospeaks@gmail.com
+                        </div>
+                        <div class="codingProjects flex-row p2 m2">Location: San Diego
+                        </div>
+                        <div class="codingProjects flex-row p2 m2">Github Profile: <a href="https://github.com/TechKoSpeaks">TechKoSpeaks</a> 
+                        </div>                     
+                        
+                            <div class="linkedInbtn card-action">LinkedIn and Resume pages:</div>
+                            <button type="submit" class="linkedInbtn btn-default" id="LinkedIn">
+                                <a href="https://www.linkedin.com/in/travisko/">LinkedIn Profile</a>                                
+                            </button>
+                            <button class="linkedInbtn btn-default" id="Resume">
+                                <a href="https://docs.google.com/document/d/1iMJFDzid7c-mCA4b2vQoJPSLNOII7lex9CM5JbsaqaU/edit?usp=sharing">Resume Link</a>                                
+                            </button>
+                        
                         <div class="row">
                             <div class="col-sm-12">
                                 <!-- Line Break followed by closing -->

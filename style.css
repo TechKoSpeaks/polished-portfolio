@@ -1,25 +1,31 @@
-/*
-*
-* ==========================================
-* CUSTOM UTIL CLASSES
-* ==========================================
-*
-*/
-.profile-header {
-    transform: translateY(5rem);
+.background {
+    background-color: rgb(173, 167, 252);
+}
+.profPic {
+    margin: 0.5em 0;
+    width: 100%;
+    background-color: rgb(80, 173, 228);
 }
 
+.cardHeader {
+    border: solid 1px;
+    margin: 0.5em 0;
+}
 
-/*
-*
-* ==========================================
-* FOR DEMO PURPOSE
-* ==========================================
-*
-*/
-body {
-    background: #654ea3;
-    background: -webkit-linear-gradient(to right, #654ea3, #eaafc8);
-    background: linear-gradient(to right, #654ea3, #eaafc8);
-    min-height: 100vh;
+.infoLink {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.codingProjects {
+    padding: 0.4em;
+    color: white;
+}
+
+.mainHeader {
+    background-color: rgba(10, 0, 95, 0.945);
+    font-weight: bold;
+}
+.linkedInbtn {
+    color: black
 }
