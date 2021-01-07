@@ -9,7 +9,6 @@ Link to deployed app: https://techkospeaks.github.io/polished-portfolio/
 - HTML5
 - Bootstrap
 - CSS
-- Javascript
 
 ## Screenshots of deployed app
 
