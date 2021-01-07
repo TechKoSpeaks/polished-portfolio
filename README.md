@@ -16,6 +16,8 @@ Link to deployed app: https://techkospeaks.github.io/polished-portfolio/
 
 ![alt text](screenshots/portfolio-screenone.png "Portfolio Screenshot 2")
 
+![alt text](screenshots/portfolio-mobile.png "Portfolio Screenshot 2")
+
 
 
 ## Links
