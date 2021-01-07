@@ -3,27 +3,32 @@
 }
 
 .profPic {
+    font-family: 'Poppins', sans-serif;
     margin: 0.5em 0;
     width: 100%;
     background-color: rgb(80, 173, 228);
 }
 
 .cardHeader {
+    font-family: 'Poppins', sans-serif;
     border: solid 1px;
     margin: 0.5em 0;
 }
 
 .infoLink {
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: bold;
 }
 
 .codingProjects {
+    font-family: 'Poppins', sans-serif;
     padding: 0.4em;
     color: white;
 }
 
 .mainHeader {
+    font-family: 'Bungee Outline', cursive;
     background-color: rgba(10, 0, 95, 0.945);
     font-weight: bold;
 }
@@ -32,14 +37,25 @@
 }
 
 .otherHeaders {
+    font-family: 'Poppins', sans-serif;
     padding: 0.4em;
     color: black;
 }
 
 .clickBtn {    
+    font-family: 'Poppins', sans-serif;
     margin: 0.4em;
 }
 
 .titleBtns {
+    font-family: 'Poppins', sans-serif;
     padding: 0.4em;
+}
+
+.aboutMe {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.quoteMe {
+    font-family: 'Yeon Sung', cursive;
 }
