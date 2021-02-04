@@ -140,17 +140,17 @@ body {
       url('cloud2.jpg');
     background-repeat: repeat-x;
     background-position: 
-      0 150%,
+      0 145%,
       0 100%,
       0 100%,
       0 100%,
       0 0;
     background-size: 
       auto 85%,
-      auto 100%,
-    auto 90%,
-      auto 90%,
-      auto 100%;
+      auto 85%,
+    auto 95%,
+      auto 95%,
+      auto 95%;
     animation: 100s para infinite linear;
     }
   
