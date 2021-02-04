@@ -1,3 +1,8 @@
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+
 .background {
   background-color: rgb(173, 167, 252);
 }
@@ -91,30 +96,18 @@
   text-align: center;
 }
 
-/* .containerDrop {
-    background-image: url('/waterdrop.jpg');
-    background-repeat: no-repeat;
-    height: auto;
-    background-attachment: stretch;
-    background-position: center;
-    background-size: cover;
-    font-family: 'Yusei Magic', sans-serif;
-    text-align: center;
-} */
 
-.rcorners3 {
-  border-radius: 25px;
-  background: url(paper.gif);
-  background-position: left top;
-  background-repeat: repeat;
-  padding: 20px;
-  width: 200px;
-  height: 150px;
-}
 .rcorners2 {
   border-radius: 15px 50px 30px !important;
   padding: 20px;
 }
+
+.rcorners4 {
+    border-radius: 15px !important;
+    padding: 20px;
+    width: 20px;
+    height: 80px;
+  }
 
 
 .button {
@@ -123,17 +116,18 @@
     text-align: center;
     cursor: pointer;
     outline: none;
-    color: #fff;
-    background-color: #4CAF50;
+    color: rgb(173, 10, 10);
+    background-color: #000000d5;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #999;
+    box-shadow: 0 9px rgba(12, 2, 151, 0.822);
+    text-align: center;
   }
 
-.button:hover {background-color: #3e8e41}
+.button:hover {background-color: #ffffff}
 
 .button:active {
-  background-color: #3e8e41;
+  background-color: #f30000;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
@@ -149,7 +143,7 @@ body {
       url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'),
       url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
       url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),
-      url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+      url('cloud2.jpg');
     background-repeat: repeat-x;
     background-position: 
       0 150%,
@@ -158,21 +152,94 @@ body {
       0 100%,
       0 0;
     background-size: 
-      2400px,
-      2000px,
-    100% 100%,
-      2700px,
+      160%,
+      2500px,
+    100% 110%,
+      3200px,
       100% 100%;
-    animation: 60s para infinite linear;
+    animation: 100s para infinite linear;
     }
   
   @keyframes para {
     100% {
       background-position: 
-        -5200px 160%,
+        -5500px 150%,
         -800px 100%,
         500px 100%,
         600px 100%,
         400px 0;
       }
     }
+
+
+
+
+    /* Collapsible styling */
+
+    /* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    background-size: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    background-color: #9881ffd2;
+    opacity: 0.5;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+ 
+
+  .cbCollapseRow {
+    display: flex;
+    background-color: #0000009f;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+    max-height: 120px;
+  }
+  
+  .cbCollapse {
+    background-image: url('spaceinvader.png');
+    background-size: 80px;
+    cursor: pointer;
+    padding: 40px;
+    border: none;
+    margin-bottom: 30px;
+    background-color: #9881ffd2;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: rgba(14, 97, 165, 0.534);
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+
+  }
+
+  .footerBtn {
+    background-image: url('spaceinvader.png');
+    background-size: cover;
+    cursor: pointer;
+    padding: 40px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #2bff00d2;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
