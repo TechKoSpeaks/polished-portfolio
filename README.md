@@ -11,12 +11,16 @@ Link to deployed app: https://techkospeaks.github.io/polished-portfolio/
 - CSS
 
 ## Screenshots of deployed app
+Demo:
+![alt text](screenshots/demoportfolio.gif "Demo of App")
+Screenshots:
+![alt text](screenshots/workingapp1.png "Portfolio Screenshot")
 
-![alt text](screenshots/portfolio-screen.png "Portfolio Screenshot")
+![alt text](screenshots/workingapplow.png "Portfolio Screenshot 2")
 
-![alt text](screenshots/portfolio-screenone.png "Portfolio Screenshot 2")
+![alt text](screenshots/workingapp.png "Portfolio Dropdown")
 
-![alt text](screenshots/portfolio-mobile.png "Portfolio Screenshot 2")
+![alt text](screenshots/mobile.png "Mobile Version")
 
 
 
