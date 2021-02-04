@@ -1,61 +1,178 @@
 .background {
-    background-color: rgb(173, 167, 252);
+  background-color: rgb(173, 167, 252);
 }
 
 .profPic {
-    font-family: 'Poppins', sans-serif;
-    margin: 0.5em 0;
-    width: 100%;
-    background-color: rgb(80, 173, 228);
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  text-align: center;
 }
 
 .cardHeader {
-    font-family: 'Poppins', sans-serif;
-    border: solid 1px;
-    margin: 0.5em 0;
+  font-family: "Poppins", sans-serif;
+  border: solid 1px;
+  margin: 0.5em 0;
+  text-align: center;
 }
 
 .infoLink {
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .codingProjects {
-    font-family: 'Poppins', sans-serif;
-    padding: 0.4em;
-    color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 0.4em;
+  color: white;
+  text-align: center;
+  background-color: rgba(14, 97, 165, 0.534);
+  text-align: center;
 }
 
 .mainHeader {
-    font-family: 'Bungee Outline', cursive;
-    background-color: rgba(10, 0, 95, 0.945);
-    font-weight: bold;
+  font-family: "Bungee Outline", cursive;
+  font-weight: bold;
+  text-align: center;
 }
 .linkedInbtn {
-    color: black
+  color: black;
 }
 
 .otherHeaders {
-    font-family: 'Poppins', sans-serif;
-    padding: 0.4em;
-    color: black;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.356);
 }
 
-.clickBtn {    
-    font-family: 'Poppins', sans-serif;
-    margin: 0.4em;
+.clickBtn {
+  font-family: "Poppins", sans-serif;
+  margin: 0.4em;
 }
 
 .titleBtns {
-    font-family: 'Poppins', sans-serif;
-    padding: 0.4em;
+  font-family: "Poppins", sans-serif;
+  padding: 0.4em;
 }
 
 .aboutMe {
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
 .quoteMe {
-    font-family: 'Yeon Sung', cursive;
+  font-family: "Yeon Sung", cursive;
 }
+
+/* body {
+  background-image: url("/forest.jpg");
+  background-repeat: no-repeat;
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: "Yusei Magic", sans-serif;
+  text-align: center;
+} */
+
+.mainInfo {
+  background-image: url("/waterdrop.jpg");
+  background-color: rgba(14, 97, 165, 0.534);
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  height: auto;
+  background-attachment: stretch;
+  background-position: center;
+  background-size: cover;
+  font-family: "Yusei Magic", sans-serif;
+  text-align: center;
+}
+
+/* .containerDrop {
+    background-image: url('/waterdrop.jpg');
+    background-repeat: no-repeat;
+    height: auto;
+    background-attachment: stretch;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Yusei Magic', sans-serif;
+    text-align: center;
+} */
+
+.rcorners3 {
+  border-radius: 25px;
+  background: url(paper.gif);
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+.rcorners2 {
+  border-radius: 15px 50px 30px !important;
+  padding: 20px;
+}
+
+
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/*  Styles for animations */
+body {
+    height: 100%;
+    /* max-height: 600px; */
+    width: 100%;
+    background-color: hsla(200,40%,30%,.4);
+    background-image:   
+      url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'), 
+      url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'),
+      url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
+      url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),
+      url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+    background-repeat: repeat-x;
+    background-position: 
+      0 150%,
+      0 100%,
+      0 100%,
+      0 100%,
+      0 0;
+    background-size: 
+      2400px,
+      2000px,
+    100% 100%,
+      2700px,
+      100% 100%;
+    animation: 60s para infinite linear;
+    }
+  
+  @keyframes para {
+    100% {
+      background-position: 
+        -5200px 160%,
+        -800px 100%,
+        500px 100%,
+        600px 100%,
+        400px 0;
+      }
+    }
