@@ -72,16 +72,7 @@
   font-family: "Yeon Sung", cursive;
 }
 
-/* body {
-  background-image: url("/forest.jpg");
-  background-repeat: no-repeat;
-  height: auto;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  font-family: "Yusei Magic", sans-serif;
-  text-align: center;
-} */
+
 
 .mainInfo {
   background-image: url("/waterdrop.jpg");
@@ -132,7 +123,10 @@
   transform: translateY(4px);
 }
 
+
+
 /*  Styles for animations */
+
 body {
     height: 100%;
     /* max-height: 600px; */
@@ -152,11 +146,11 @@ body {
       0 100%,
       0 0;
     background-size: 
-      160%,
-      2500px,
-    100% 110%,
-      3200px,
-      100% 100%;
+      auto 85%,
+      auto 100%,
+    auto 90%,
+      auto 90%,
+      auto 100%;
     animation: 100s para infinite linear;
     }
   
@@ -233,13 +227,22 @@ body {
   }
 
   .footerBtn {
-    background-image: url('spaceinvader.png');
+
     background-size: cover;
     cursor: pointer;
-    padding: 40px;
+    padding: 8px;
     border: none;
     margin-bottom: 10px;
-    background-color: #2bff00d2;
+    background-color: #00000038;
     font-family: "Poppins", sans-serif;
     text-align: center;
+    color: white;
   }
+
+.footerBtn:hover {background-color: #ff0000}
+
+.footerBtn:active {
+  background-color: #55ff07;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
