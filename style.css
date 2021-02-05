@@ -142,16 +142,16 @@ body {
     background-position: 
       0 145%,
       0 100%,
-      0 100%,
+      0 140%,
       0 100%,
       0 0;
     background-size: 
-      auto 85%,
-      auto 85%,
-    auto 95%,
-      auto 95%,
+      auto 80%,
+      auto 83%,
+    auto 110%,
+      auto 90%,
       auto 95%;
-    animation: 100s para infinite linear;
+    animation: 60s para infinite linear;
     }
   
   @keyframes para {
@@ -159,9 +159,9 @@ body {
       background-position: 
         -5500px 150%,
         -800px 100%,
+        700px 100%,
         500px 100%,
-        600px 100%,
-        400px 0;
+        200px 0;
       }
     }
 
